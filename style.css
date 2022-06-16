@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-clr-1: hsl(31, 77%, 52%);
+  --primary-clr-2: hsl(184, 100%, 22%);
+  --primary-clr-3: hsl(179, 100%, 13%);
+  --button-clr: hsl(0, 0%, 95%);
+  --paragraph-clr: hsl(0, 0%, 100%, 0.75);
+  --font-size: 15px;
+  --transition: all 0.2s linear;
+  --font-family-1: "Big Shoulders Display", cursive;
+  --font-family-2: "Lexend Deca", sans-serif;
+}
+.main {
+  background: #fff;
+  min-height: 100vh;
+  min-width: 95vw;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.one {
+  height: 24rem;
+  width: 15rem;
+  padding: 2.5rem 2rem;
+}
+.art-one {
+  background: var(--primary-clr-1);
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+.art-two {
+  background: var(--primary-clr-2);
+}
+.art-three {
+  background: var(--primary-clr-3);
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.image {
+  height: 1.8rem;
+  margin-bottom: 2rem;
+}
+.display {
+  height: 100%;
+}
+
+.title {
+  color: var(--paragraph-clr);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-family: var(--font-family-1);
+  font-size: 1.2rem;
+}
+.info {
+  color: var(--paragraph-clr);
+  font-size: 0.8rem;
+  margin-bottom: 4rem;
+  font-family: var(--font-family-2);
+}
+.button {
+  background: var(--button-clr);
+  text-transform: capitalize;
+  text-align: center;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 1.5rem;
+  display: inline-block;
+  border: none;
+  transition: var(--transition);
+  font-family: var(--font-family-2);
+}
+.button:hover {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.but-one {
+  color: var(--primary-clr-1);
+}
+.but-two {
+  color: var(--primary-clr-2);
+}
+.but-three {
+  color: var(--primary-clr-3);
+}
